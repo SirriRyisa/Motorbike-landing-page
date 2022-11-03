@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiak-tiak</title>
+    <link rel="stylesheet" href="./mobileStyle.css">
+    <link rel="stylesheet" href="./desktopStyle.css">
+</head>
+
+<!--
+    Responsive format first, desktop will be signaled by "Desk" comment
+-->
+<body background-color="orange">
+
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="/assests/tiak-tiak-logo.jpeg" alt="compaby's logo" class="company-logo">
+            <p class="company-title">tiak-tiak</p>
+        </div>
+        <!--Se if I can put fontawesome icon instead or make it in css-->
+        <div class="nav-link-container" id="nav-link">
+            <ul class="nav-list">
+                <li> <a href="#vehicules-nav" id="vehicules-nav-link">Home</a></li>
+                <li> <a href="#about-nav" id="about-nav-link">About</a></li>
+                <li> <a href="#expertise-nav" id="expertise-nav-link">Services</a> </li>
+                <li> <a href="#service-nav" id="service-nav-link">Pricing</a></li>
+                <li> <a href="#location-nav" id="location-nav-link">Contact Us</a> </li>
+                </li>
+            </ul>
+        </div>
+        <div class="burger-menu-container" id="burger-menu">
+                <div class="burger-bar" id="burger-top">
+
+                </div>
+                <div class="burger-bar" id="burger-mid">
+
+                </div>
+                <div class="burger-bar" id="burger-bot">
+                  
+                </div>
+        </div>
+    </nav>
+
+    <main class="wrapper" >
+
+        <section class="hero-container">
+
+            <h2>Book a ride and Earn More Money with tiak-tiak</h2>
+
+            <article class="hero-content">
+                
+                <p class="desktop-h2">Book a ride and Earn More Money with tiak-tiak</p>
+
+
+                <div class="caroussel">
+                    
+
+                    <img src="" alt="Renault ZE truck driving on road" id="truck-hero-image" class="hero-image" style="width: max-content;" > 
+
+                </div>    
+
+                    <div class="caroussel-button">
+
+                        <button id="prev-btn" class="image-caroussel-button button-left"><i class="fa-solid fa-chevron-left"></i></button>
+                        <button id="next-btn" class="image-caroussel-button button-right"><i class="fa-solid fa-chevron-right"></i></button>
+
+                    </div>
+
+                <div class="hero-p-content">
+
+                <p>We make it easy for you to beat traffic at an affordable price with great comfort.</p>
+
+                </div>  
+
+                <div class="brochure-cta-desktop"> 
+                
+                    <button class="brochure-cta-button-desktop">Sign Up </button>
+                
+                </div>
+
+            </article>
+            
+        </section>
+            <!--Trucks will appear accordingly to buttons in mobile mode -->
+        <section class="vehicules-container" id="vehicules-nav">
+
+            <h2>Why Choose Tiak-Tiak</h2>
+
+                <div class="vehicule-button-container">
+
+                    <button id="small-btn" class="on" >Comfort and Security</button>
+
+                    <button id="medium-btn" class="off">Convenience</button>
+
+                    <button id="large-btn" class="off">Timeliness</button>
+
+                </div>
+
+                <br>
+
+                <article class="vehicule-content">
+
+                    <div class="hide desktop-vh" id="truck-one">
+
+                        <div class="vehicule-img-container">
+
+                            <img src="/assests/hero/desktop/Hero1.jpeg" alt="UD Trucks Croner PKE250 H30" width="280px" >
+
+                        </div>
+
+                        <p>Comfort</p>
+
+                    </div>
+
+                    <div class="hide desktop-vh" id="truck-three">
+
+                        <div class="vehicule-img-container">
+
+                            <img src="/assests/about/driver.jpeg" alt="Isuzu NQR 500" width="280px">
+
+                        </div>
+
+                        <p>Security</p>
+
+                    </div>
+
+                    <div class="hide desktop-vh" id="truck-two">
+
+                        <div class="vehicule-img-container">
+
+                            <img src="/assests/hero/desktop/Hero2.jpeg" alt="Isuzu FTR 850" width="280px">
+
+                        </div>
+
+                        <p>Convenience</p>
+
+                    </div>
+                    
+                    <div class="small desktop-vh" id="truck-four">
+                        
+                        <div class="vehicule-img-container">
+                        
+                            <img src="/assests/hero/desktop/Hero3.jpeg" alt="Toyota Dyna">
+                        
+                        </div>
+                        
+                        <p>Timeliness</p>
+                    
+                    </div>
+                    
+                    <div class="small desktop-vh" id="truck-five">
+                        
+                        <div class="vehicule-img-container">
+                        
+                            <img src="/assests/hero/desktop/Hero3.jpeg" alt="Fiat Doblo">
+                        
+                        </div>
+                        
+                        <p>Affordable</p>
+                    
+                    </div>
+                    
+                    <p class="message-hidden" id="vh-Error-Msg"> Opps it seems like you haven't selected any vehicle sizes !</p>
+                
+                </article> 
+                    
+            
+        </section>
+
+        <section class="about-container" id="about-nav">
+            
+            <article class="about-content">
+                
+                <h2>Working together to ensure safety, security, comfort, Convenience, and affordability.</h2>
+            
+                    <h3>Hail and ride with Tiak-Tiak</h3>
+                
+                    <p class="about-container-p">Tiak-Tiak is a motor bike platform that helps commuters and student avoid traffic during rush hours. Our core goal is to ensure our users
+                        are safe while trying to get to their destination on time, make it affordable and comfortable for all level earners and real time customer support in case of discomfort
+                        or suspicious activities.
+                    </p>
+                
+                    <!-- <h4>Transport society in numbers</h4>
+                
+                <div class="number-container">
+
+                    <div class="number-row-one">
+                        
+                        <div>
+                            
+                            <p class="number">+62,000</p> 
+                            
+                            <p class="number-p">refrigerated <br>vehicles</p>
+                        
+                        </div>
+                        
+                        <div >
+                            
+                            <p class="number">+15,000</p>
+                            
+                            <p class="number-p">customers</p>
+                        
+                        </div>
+                        
+                        <div>
+                            
+                            <p class="number">+4,500</p>
+                            
+                            <p class="number-p">employees</p>
+                        
+                        </div>
+                    
+                    </div>
+                    
+                    <div class="number-row-two">
+                        
+                        <div>
+                            
+                            <p class="number">+300</p>
+                            
+                            <p class="number-p">sites worldwide</p>
+                        
+                        </div>
+                        
+                        <div>
+                            
+                            <p class="number">€849 M</p>
+                            
+                            <p class="number-p">turnover in 2021</p>
+                        
+                        </div>
+                        
+                        <div>
+                            
+                            <p class="number">500+</p>
+                            
+                            <p class="number-p">refrigeration specialists</p>
+                        
+                        </div>
+                    </div>
+                </div> -->
+            </article>
+            <div class="about-img-container">
+                <img src="./assests/about/driver.JPEG" alt="" class="about-img" width="900px">    
+            </div>
+        </section>
+
+        <section class="expertise-container" id="expertise-nav">
+
+                
+            <h2>Tiak-tiak breakdown</h2>
+
+            <article class="expertise-content">
+                
+
+                    <img src="/assests/expertises/tiak-tiak-motor.png" alt="Front of Fiat Doplo" class="expertise-img">
+
+                <div class="expertise-top-left">
+                    
+                    <h4>Insurance</h4>
+                    
+                    <p>We don't pray for accidents but we are insured incase of any unforseen.</p>
+                
+                </div>
+                
+                <div class="expertise-top-right">
+                    
+                    <h4>Don't talk cost</h4>
+                    
+                    <p>Think you can't afford us? Worry no more, we have packages for all level income.</p>
+                
+                </div>
+                
+                <div class="expertise-bottom-left">
+                    
+                    <h4>Worried about social status?</h4>
+                    
+                    <p>Worry no more beacuse we offer bikes of different categories to match our customers social status.</p>
+                
+                </div>
+                
+                <div class="expertise-bottom-right">
+                    
+                    <h4>Any discomfort or unusaul activities?</h4>
+                    
+                    <p>Tiak-tiak offers real time support incase of any emergency or missing items.</p>
+                
+                </div>
+                <div class="expertise-bottom-mid">
+                    
+                    <h4>Government Regulations</h4>
+                    
+                    <p>Tiak-tiak meets up with all government regulations regarding this method of transportation. We have well trained and respectful riders and we plead that our customers resiprocate this respect and incase of any odds during your ride, please do not hesitate to reach out to us through our real time support system. Your safety and comfort is our periority</p>
+                
+                </div>
+            
+            </article>
+        
+        </section>
+
+        <section class="service-container" id="service-nav">
+
+            
+            
+            <article class="service-content">
+                <h4>Frequently Asked Questions</h4>
+                
+                <div class="service-content-one">
+                    
+                    <h4>Can I share my wallet</h4>
+                    
+                    <p>You can share your wallet gains with your friends or anyone who has request using the app</p>
+                
+                </div>
+                
+                <div class="service-content-two">
+                    
+                    <h4>Sanctions</h4>
+                    
+                    <p>We do not condon abuse to our drivers. Drivers who misbehave will be sanctioned according to our policies.</p>
+                
+                </div>
+                
+                <div class="service-content-three">
+                    
+                    <h4>Can I cancel my ride</h4>
+                    
+                    <p>Yes you can cancel your ride. Ride concelation should be done between 2 and 3 mins.</p>
+                
+                </div>
+                
+                <div class="service-content-four">
+                    
+                    <h4>How long are your contracts</h4>
+                    
+                    <p>Our contract are renewed twice every six months and for outstanding drivers renewal is twice every year.</p>
+                
+                </div>
+                
+                
+            </article>
+        </section>
+
+        <section class="contact-container" id="contact-nav">
+            
+            <article class="contact-content">
+                
+                <h2>Contact Us</h2>
+                
+                <img src="/assests/expertises/tiak-tiak-motor.png" alt="" class="content-img">
+
+            <div class="contact-content-p">
+
+                    <p class="contact-more-info">For more information, please don’t hesitate to get in touch :</p>
+
+                    <p>Tiak-Tiak head office</p>
+
+                    <p>Telephone:  +237 652 63 62 42</p>
+
+                    <p>Email : tiak@tiak.org</p>
+
+                    <p>Twitter : @tiak-tiak-motor</p>
+
+            </div>
+            </article>
+
+            <form action="" method="post" class="contact-form">
+
+                <div class="profile"> 
+                    
+                    <label for="" class="form-title">Profile</label><br>
+
+                    <!-- <div class="profile-radio-container"> -->
+                            
+                        <input type="radio" id="consumer" name="profile-question" value="consumer" checked>
+                        
+                            <label for="Consumer" class="profile-label">Customer.</label>
+                    
+                          <br class="radio-break">
+                            <!-- <div class="pro-radio">
+                       
+                        <input type="radio" id="professional" name="profile-question" value="professional">
+                    
+                            <label for="professional" class="profile-label">Professional.</label>
+                        </div> -->
+                  
+                        <input type="radio" id="professional" name="profile-question" value="professional">
+                    
+                            <label for="professional" class="profile-label">Driver</label>
+                        <!-- </div> -->
+                </div>
+
+                <div class="gender">
+                    
+                    <label for="" class="form-title">Title</label><br>
+                    
+                        <input type="radio" id="M" name="gender-question" value="M" checked>
+                    
+                            <label for="M" class="gender-label">Male</label>
+                    
+                        <input type="radio" id="F" name="gender-question" value="F">
+                    
+                            <label for="F" class="gender-label">Female</label>
+
+                </div>
+
+
+                <div class="forename"> 
+                    
+                    <label for="forename" class="form-title">Firstname</label><br>
+                        
+                        <input type="text" id="forename" class="input-form"  name="forename" required>
+                
+                </div>
+                
+                <div class="surname"> 
+                    
+                    <label for="surname" class="form-title">Lastname</label><br>
+                    
+                        <input type="text" id="surname" class="input-form" name="surname" required>
+                
+                </div>
+
+                <div class="company-name"> 
+                    
+                    <label for="company-name" class="form-title">Address</label><br>
+                    
+                        <input type="text" id="company-name" class="input-form" name="company-name" required>
+                
+                </div>
+                
+                <div class="job-title"> 
+                    
+                    <label for="job-title" class="form-title">Street name</label><br>
+                    
+                        <input type="text" id="job-title" class="input-form" name="job-title" required>
+                
+                </div>
+
+                <div class="email">
+                    
+                    <label for="email" class="form-title">Email</label><br>
+                    
+                        <input type="email" id="email" class="input-form" name="email" required>
+                
+                </div>
+
+                <div class="phone">
+                    
+                    <label for="phone" class="form-title">Téléphone</label><br>
+                    
+                        <input type="tel" id="phone" class="input-form" name="phone">
+                
+                </div>
+
+                <div class="select-location">
+                
+                    <!--span permet d'afficher tout dans la même ligne-->
+                
+                    <label for="select-location" class="form-title selection-location-title">Select a city</label><br>
+                
+                        <select id="select-location" name="select-location">
+
+                            <option value="South-Africa">Douala</option>
+                            
+                            <option value="France">Yaounde</option>
+                            
+                            <option value="Espagne">Bamenda</option>
+                
+                        </select>
+                    </div>
+
+                <div class="write-message">
+                    <label for="message" class="form-title">Message</label><br>
+                    <textarea rows="10" id="message" name="message" placeholder="Your message" required></textarea>
+                
+                </div>
+
+                <div class="contact-form-rgpd">
+
+                    <input type="checkbox" id="rgpd-agree">
+
+                    <p>I have entred all my credentials.</p>
+
+                </div>
+                
+                <div class="form-button-container">
+
+                    <button class="submit-button" id="submit" type="submit">Submit</button>
+                
+                </div>
+            
+            </form>
+
+        </section>
+
+        <!-- <section class="location-container" id="location-nav">
+
+            <div class="location-content">
+
+                <div class="local-ageny-contact">
+                    <h4>Our head office D'la Cameroon</h4>
+
+                        <p>Contact : Sirri Ryisa</p>
+
+                        <p>Telephone: +237 652 63 62 42</p>
+                
+                </div>
+
+                <div id="address-one" class="address">
+
+                    <h5>Douala</h5><br>
+                        <div class="address-p">
+                    <p>Entre college malangue</p>
+                    
+                        <div class="address-chevron">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div> 
+                </div> 
+                </div>
+
+                <div id="address-two" class="address">
+
+                    <h5>Durban</h5> <br>
+                        <div class="address-p">
+                    <p>Unit 4b, <br>50 Moreland Drive,  Rinaldo Industrial Park, Redhill 4071, Durban, KZN</p>
+                    
+                        <div class="address-chevron">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                </div>
+                </div>
+
+                <div id="address-three" class="address">
+
+                    <h5>Capetown</h5><br>
+                        <div class="address-p">
+                    <p>111 Kruis Road, Brackenfell, </p>
+                    
+                        <div class="address-chevron">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                
+                    </div>
+
+
+                </div>
+                </div>  
+            <div id="g-maps" class="g-maps"> </div>
+        
+        </section> -->
+    </main>
+
+    <footer class="footer-container">
+
+        
+        <div class="footer-rgpd-content">
+
+            <div>
+                <img src="./assests/Logo.png" alt="" class="footer-logo">
+            </div>
+            
+            <!-- <p class="footer-rgpd-p">*Les informations que nous collections via ce formulaire font l’objet d’un traitement informatique dont la finalité est de pouvoir répondre à votre demande d'information.
+
+                Les destinataires des données sont les services marketing et commercial du groupe Transport society
+                Conformément à la loi du 6 janvier 1978 relative à l'infromatique, aux fichiers et aux libertés modifiée par la loi du 20 juin 2018 et au Règlement de l'Union européenne n°2016/679 relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et à la libre circulation des données (RGPD), vous disposez d'un droit d'accès, de rectification, de limitation, d'opposition, de portabilité, de limitation et d'effacement des informations qui vous concernent - en envoyant un courrier à dpo@transportsociety.com accompagné d'une copie d'une pièce d'identité valide.
+                 
+                En soumettant ce formulaire, vous acceptez notre politique de confidentialité. </p> -->
+
+        </div>
+        
+        <div class="footer-legal">
+
+            
+            <p>Tiak-tiak</p>
+            
+            <p>Private policy</p>
+            
+            <p>© 2022 Transport society</p>
+
+        </div>
+
+    </footer>
+    
+    <script src="https://kit.fontawesome.com/5d922bd6e6.js" crossorigin="anonymous"></script>
+    
+    <script src="./app.js"></script>
+
+    <script> console.log('Coded by https://github.com/pivilartisant') </script>
+
+
+</body>
+
+</html>
